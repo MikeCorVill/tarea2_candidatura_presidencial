@@ -1,0 +1,125 @@
+:root{
+    --color_pln: darkgreen;
+    --color_ppsd: rgb(54, 213, 44);
+    --color_pnr: cornflowerblue;
+    --color_plp: orangered;
+    --color_pusc: rgb(7, 74, 145);
+    --color_pfa: yellow;
+    --color_otros: darkgray;
+}
+#graficos{
+    height: 1250px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(37, 37, 38);
+}
+.grafico1 h1{
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container_graficor1{
+    width: 800px;
+    height: 550px;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_graficor1 .graficor1{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-image: conic-gradient(var(--color_pln) 27.28%,
+                                     var(--color_ppsd) 27.28% 44.06%,
+                                     var(--color_pnr) 44.06% 58.94%,
+                                     var(--color_plp) 58.94% 71.34%,
+                                     var(--color_pusc) 71.34% 83.74%,
+                                     var(--color_pfa) 83.74% 92.47%,
+                                     var(--color_otros) 92.47%);
+    box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
+.container_leyendasr1{
+    margin-left: 30px;
+    width: 400px;
+}
+.leyendar1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+[class^="color_"]{
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    border-radius: 3px;
+    background-color: var(--color_pln);
+}
+.color_ppsd{
+    background-color: var(--color_ppsd);
+}
+.color_pnr{
+    background-color: var(--color_pnr);
+}
+.color_plp{
+    background-color: var(--color_plp);
+}
+.color_pusc{
+    background-color: var(--color_pusc);
+}
+.color_pfa{
+    background-color: var(--color_pfa);
+}
+.color_otros{
+    background-color: var(--color_otros);
+}
+.partido{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1;
+}
+.total{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(30, 50, 70);
+}
+/*------------------------------------*/
+.grafico2 h1{
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container_graficor2{
+    width: 800px;
+    height: 550px;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_graficor2 .graficor2{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-image: conic-gradient(var(--color_ppsd) 52.84%,
+                                     var(--color_pln) 52.84%);
+    box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
+.container_leyendasr2{
+    margin-left: 30px;
+    width: 400px;
+}
+.leyendar2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}

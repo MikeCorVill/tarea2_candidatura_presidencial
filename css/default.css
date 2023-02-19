@@ -1,0 +1,57 @@
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header img{
+    height: 100px;
+}
+#header .titulo{
+    width: 60%;
+    font-size: xx-large;
+    font-family: Fuente de Titulo;
+    padding-left: 300px;
+    color: darkblue;
+}
+#tabla_partidos{
+    width: 95%;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#tabla_partidos img{
+    width: 300px;
+    height: 150px;
+}
+#tabla_partidos p{
+    margin-top: 0;
+}
+tr{
+    background-color: beige;
+}
+td{
+    border: 1px solid black;
+    width: 33%;
+    justify-content: space-around;
+}
+table .header{
+    text-align: center;
+}
+tbody hr{
+    width: 80%;
+    margin-left: 0;
+    border: 2px solid black;
+}
+@font-face {
+    font-family: 'Fuente de Titulo';
+    src: url(../font/Sweet\ Bread-BoldItalic.ttf);
+}
+#footer{
+    border-top: double;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    color: #a8a88d;
+    padding-top: 15px;
+    background-image: url('../images/a1.gif');
+    background: repeat-x;
+}
